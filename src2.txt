@@ -1,0 +1,64 @@
+Para criar uma nova pasta dentro da pasta `src` do projeto React e elaborar um arquivo JavaScript que contém uma função que retornará uma mensagem ao chamar `http://localhost:3000/`, siga os seguintes passos:
+
+Passo 1: Crie a nova pasta e o arquivo JavaScript
+
+1. Navegue até o diretório raiz do seu projeto React no terminal.
+
+2. Execute os seguintes comandos para criar a nova pasta e o arquivo JavaScript:
+
+```bash
+cd src
+mkdir nova-pasta
+cd nova-pasta
+touch mensagem.js
+```
+
+Passo 2: Edite o arquivo mensagem.js
+
+Agora, você pode editar o arquivo `mensagem.js` para criar a função que retornará uma mensagem. Abaixo está um exemplo simples:
+
+```javascript
+function obterMensagem() {
+  return "Bem-vindo ao meu site!";
+}
+
+export default obterMensagem;
+```
+
+Salve o arquivo após fazer as alterações.
+
+Passo 3: Importe e utilize a função no arquivo `App.js`
+
+Agora que você criou a função `obterMensagem` no arquivo `mensagem.js`, você pode importá-la e utilizá-la no arquivo `App.js`. Edite o arquivo `App.js` no diretório `src` da seguinte maneira:
+
+```javascript
+import React from 'react';
+import './App.css';
+import obterMensagem from './nova-pasta/mensagem';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <p>
+          {obterMensagem()}
+        </p>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+```
+
+Aqui, importamos a função `obterMensagem` do arquivo `mensagem.js` e a chamamos dentro do componente `App`. Ela será executada quando você acessar a página principal do aplicativo.
+
+Passo 4: Inicie o servidor de desenvolvimento
+
+Se o servidor de desenvolvimento não estiver em execução, você pode iniciá-lo com o seguinte comando:
+
+```bash
+npm start
+```
+
+Isso iniciará o servidor e abrirá o seu projeto React no navegador. Ao acessar http://localhost:3000/, você verá a mensagem "Bem-vindo ao meu site!" exibida na página principal.
