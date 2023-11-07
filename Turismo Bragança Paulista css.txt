@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Turismo em Bragança Paulista</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        h2 {
+            margin-bottom: 10px;
+        }
+        
+        article {
+            margin-bottom: 20px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Turismo em Bragança Paulista</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Praças</a></li>
+            <li><a href="#">Parques</a></li>
+            <li><a href="#">Museus</a></li>
+            <li><a href="#">Restaurantes</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Praças</h2>
+
+        <article>
+            <h3>Praça Raul Leme</h3>
+            <img src="praca_raul_leme.jpg" alt="Praça Raul Leme">
+            <p>Descrição da praça Raul Leme.</p>
+        </article>
+
+        <article>
+            <h3>Praça da Matriz</h3>
+            <img src="praca_da_matriz.jpg" alt="Praça da Matriz">
+            <p>Descrição da praça da Matriz.</p>
+        </article>
+
+        <h2>Parques</h2>
+
+        <article>
+            <h3>Parque Luiz Gonzaga de Oliveira</h3>
+            <img src="parque_luiz_gonzaga.jpg" alt="Parque Luiz Gonzaga de Oliveira">
+            <p>Descrição do parque Luiz Gonzaga de Oliveira.</p>
+        </article>
+
+        <article>
+            <h3>Parque dos Estados</h3>
+            <img src="parque_dos_estados.jpg" alt="Parque dos Estados">
+            <p>Descrição do parque dos Estados.</p>
+        </article>
+
+        <h2>Museus</h2>
+
+        <article>
+            <h3>Museu do Telefone</h3>
+            <img src="museu_do_telefone.jpg" alt="Museu do Telefone">
+            <p>Descrição do museu do Telefone.</p>
+        </article>
+
+        <article>
+            <h3>Museu Histórico e Pedagógico de Bragança Paulista</h3>
+            <img src="museu_historico_pedagogico.jpg" alt="Museu Histórico e Pedagógico de Bragança Paulista">
+            <p>Descrição do museu Histórico e Pedagógico de Bragança Paulista.</p>
+        </article>
+
+        <h2>Restaurantes</h2>
+
+        <article>
+            <h3>Restaurante Aconchego</h3>
+            <img src="restaurante_aconchego.jpg" alt="Restaurante Aconchego">
+            <p>Descrição do restaurante Aconchego.</p>
+        </article>
+
+        <article>
+            <h3>Restaurante do Lago</h3>
+            <img src="restaurante_do_lago.jpg" alt="Restaurante do Lago">
+            <p>Descrição do restaurante do Lago.</p>
+        </article>
+    </main>
+</body>
+</html>
