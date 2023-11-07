@@ -1,0 +1,38 @@
+Para exibir seu nome na página inicial do projeto React, você pode simplesmente editar o conteúdo do componente no arquivo `src/App.js`. Abaixo, apresento um exemplo de como você pode fazer isso:
+
+1. Abra o projeto React no diretório em que você o criou.
+
+2. Abra o arquivo `src/App.js` no seu editor de código.
+
+3. No arquivo `App.js`, você pode editar o conteúdo dentro do componente `App` para exibir seu nome. Substitua o conteúdo existente pelo seu nome. Aqui está um exemplo:
+
+```jsx
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <p>
+          Meu nome é [Seu Nome].
+        </p>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+```
+
+4. Salve o arquivo após fazer a alteração.
+
+5. Agora, você pode iniciar o servidor de desenvolvimento do React com o seguinte comando (se ainda não estiver em execução):
+
+```bash
+npm start
+```
+
+Isso iniciará o servidor e abrirá automaticamente o seu projeto no navegador padrão. Ao acessar http://localhost:3000/, você verá o seu nome exibido na página inicial.
+
+Lembre-se de substituir `[Seu Nome]` pelo seu nome real.
