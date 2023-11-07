@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bragança Paulista - Ponto Turístico</title>
+    <style>
+        body {
+            font: Arial, sans-serif            margin: 0;
+ padding: 0;
+ }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        
+        section {
+            padding: 20px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ponto Turístico de Bragança Paulista</h1>
+    </header>
+    
+    <section>
+        <h2>Descrição do Ponto Turístico</h2>
+        <p>Texto com informações sobre o ponto turístico de Bragança Paulista.</p>
+
+        <p>O Lago deBragança Paulista é um dos pontos turisticos mais atraentes da cidade</p> 
+        
+        <img src="imagem1.jpg" alt="Imagem do Ponto Turístico">
+        <img src="imagem2.jpg" alt="Imagem do Ponto Turístico">
+    </section>
+    
+    <footer>
+        <p>© 2021 Bragança Paulista - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
