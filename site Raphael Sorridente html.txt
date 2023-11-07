@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+   <meta charset="utf-8" />
+   <title>Cão se torna Celebridade na Internet com suas Habilidades incriveis DIV</title>
+   <link href="centralizar.css" rel="stylesheet" type="text/css />
+</head>
+<body>
+
+    <div id="site">
+
+   <p>No dia 23 de Dezembro de 2023, um Video carregado no Instagram deixou vários
+      Usuários de boca aberta. O Video mostra um cão da raça Border Collie, seu nome 
+      é Raphael</p>
+
+   <img scr="RaphaelSorridente.jpg" alt="RaphaelSorridente" />
+
+</div>
+
+</body>
+
+</html>
+
+   
