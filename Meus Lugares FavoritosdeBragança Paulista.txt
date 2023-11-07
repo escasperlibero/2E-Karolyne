@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bragança Paulista</title>
+</head>
+<body>
+  <h1>Pontos Turísticos em Bragança Paulista</h1>
+  
+  <a href="meus-locais-favoritos.html">Clique aqui para conhecer os lugares que mais gosto de frequentar em Bragança Paulista</a>
+
+  <h2>Ponto Turístico 1: Lago do Taboão</h2>
+  <img src="lago_taboao.jpg" alt="Lago do Taboão">
+
+  <h2>Ponto Turístico 2: Parque dos Estados</h2>
+  <img src="parque_estados.jpg" alt="Parque dos Estados">
+
+  <h2>Ponto Turístico 3: Jardim Público</h2>
+  <img src="jardim_publico.jpg" alt="Jardim Público">
+</body>
+</html>
