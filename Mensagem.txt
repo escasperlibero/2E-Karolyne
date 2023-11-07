@@ -1,0 +1,40 @@
+
+1. Dentro da pasta "src" do seu projeto, crie um novo arquivo chamado "Mensagem.js" com o seguinte conteúdo:
+
+```javascript
+import React from 'react';
+
+function Mensagem(props) {
+  return (
+    <div>
+      <p>{props.texto}</p>
+    </div>
+  );
+}
+
+export default Mensagem;
+```
+
+2. Agora, você pode usar o componente "Mensagem" no arquivo "App.js" e passar uma propriedade "texto" para ele. Edite o arquivo "App.js" da seguinte forma:
+
+```javascript
+import React from 'react';
+import './App.css';
+import Mensagem from './Mensagem'; // Importe o componente Mensagem
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <Mensagem texto="Olá, este é um exemplo de uso de props em React!" />
+      </header>
+    </div>
+  );
+}
+
+export default App;
+```
+
+Neste exemplo, importamos o componente "Mensagem" e o utilizamos no componente "App". Passamos a propriedade "texto" com uma mensagem personalizada, que será exibida pelo componente "Mensagem".
+
+Agora, ao iniciar o aplicativo usando `npm start`, você verá a mensagem personalizada sendo exibida no componente "Mensagem" quando acessar a página principal. Certifique-se de que os arquivos "App.js" e "Mensagem.js" estão no mesmo diretório.
